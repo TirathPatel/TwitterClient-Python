@@ -4,10 +4,10 @@ from Tkinter import *
 import json
 
 
-consumer_key = 'OsA1h78gDVIvgL9TNLXdPBn9E'
-consumer_secret = 'gq6PWkyBqgu7VCiUcn6vtOK2ZixxCTFCXFmgNqxRcL2Qy9ywoN'
-access_token = '333153736-lCFUKmq8XMnzDIdbWCJAj4lEt3baX18UUr1KsUym'
-access_secret = 'qV94aPw0kABLXjQVFyLEaym5jdnM5RErBVgQV9N3Jsn3y'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
